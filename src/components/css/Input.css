@@ -1,0 +1,20 @@
+.input {
+  padding: 12px;
+  border: 1px solid #80868b;
+  border-radius: 10px;
+  position: relative;
+  top: 17%;
+  left: 28%;
+  width: 572px;
+  height: max-content;
+}
+
+input {
+  flex: 1;
+  outline-width: 0px;
+  border: none;
+  background-color: transparent;
+  color: #80868b;
+  font-weight: 500;
+  font-size: 15px;
+}
