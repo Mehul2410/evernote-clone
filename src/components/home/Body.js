@@ -2,12 +2,60 @@ import React from "react";
 import "../css/Body.css";
 import Input from "./Input";
 import Sidebar from "./Sidebar";
+import Card from "./Card";
 
 const Body = () => {
   return (
     <div className="body">
-      <Sidebar />
-      <Input />
+      <div className="body__Left">
+        <Sidebar />
+      </div>
+      <div className="body__Cards">
+        <div className="body__Center">
+          <Input />
+        </div>
+        <div className="body__CardBody">
+          <div className="body__Card">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card /> <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

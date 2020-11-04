@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className={navbar ? "navbar active" : "navbar"}>
       <div className="navbar__Left">
         <MenuIcon />
-        <img src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png" />
+        <img src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png" />
         <h2>Keep</h2>
       </div>
       <div className="navbar__Center">

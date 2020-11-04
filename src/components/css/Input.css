@@ -1,14 +1,14 @@
 .input,
 .inputHome {
-  padding: 5px;
+  position: relative;
+  left: 35%;
+  padding: 4px;
   border: 1px solid #80868b;
   border-radius: 10px;
-  position: relative;
-  top: 17%;
-  left: 28%;
   width: 572px;
   height: max-content;
   align-items: center;
+  box-shadow: 4px 4px 6px #111113;
 }
 
 .input {
@@ -32,10 +32,11 @@ input {
 
 .textareaHome,
 .textareaClick {
+  margin-left: 8px;
   outline-width: 0px;
   border: none;
   background-color: transparent;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   color: #80868b;
   text-decoration: none;

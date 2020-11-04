@@ -1,0 +1,21 @@
+.card {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0px 10px 10px 10px;
+  box-shadow: 4px 4px 6px #111113;
+}
+
+.card__Options > div > .MuiSvgIcon-root {
+  color: transparent;
+  margin-right: 24px;
+  font-size: large;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.card__Options > div > .MuiSvgIcon-root:hover {
+  color: whitesmoke;
+  background-color: #303135;
+  border-radius: 50%;
+}
