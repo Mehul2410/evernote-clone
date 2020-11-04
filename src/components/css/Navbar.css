@@ -15,6 +15,7 @@
 .navbar__Left > h2 {
   font-weight: 400;
   cursor: pointer;
+  font-size: larger;
 }
 
 .navbar__Left > img {
@@ -36,21 +37,6 @@
   color: #e2e2e3;
 }
 
-::placeholder {
-  color: #e2e2e3;
-  opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #e2e2e3;
-}
-
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #e2e2e3;
-}
-
 .navbar__Center {
   align-items: center;
   background-color: #525355;
@@ -64,8 +50,16 @@
   outline-width: 0;
   border: none;
   background-color: transparent;
-  font-size: medium;
+  font-size: 15px;
   font-weight: 400;
+  width: 95%;
+}
+
+.navbar__Center > input::placeholder {
+  color: #e2e2e3;
+}
+.navbar__Center > input::-moz-placeholder {
+  color: #e2e2e3;
 }
 
 .navbar__Tabview {

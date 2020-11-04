@@ -1,5 +1,6 @@
-.input {
-  padding: 12px;
+.input,
+.inputHome {
+  padding: 5px;
   border: 1px solid #80868b;
   border-radius: 10px;
   position: relative;
@@ -7,14 +8,91 @@
   left: 28%;
   width: 572px;
   height: max-content;
+  align-items: center;
+}
+
+.input {
+  padding: 12px;
+}
+
+.input__Title {
+  display: flex;
+  align-items: center;
 }
 
 input {
-  flex: 1;
+  width: 92%;
   outline-width: 0px;
   border: none;
   background-color: transparent;
-  color: #80868b;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
+  color: #80868b;
+}
+
+.textareaHome,
+.textareaClick {
+  outline-width: 0px;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15px;
+  color: #80868b;
+  text-decoration: none;
+  resize: none !important;
+}
+.textareaHome {
+  width: 75%;
+}
+.input__Note > .MuiSvgIcon-root {
+  color: #80868b;
+  cursor: pointer;
+  padding: 9px;
+}
+.input__Note > .MuiSvgIcon-root:hover {
+  border-radius: 50%;
+  background-color: #28292c;
+}
+
+.input__Note {
+  display: flex;
+  align-items: center;
+}
+.textareaClick {
+  width: 94%;
+  margin: 18px 0px !important;
+}
+
+.input__Options > div > .MuiSvgIcon-root {
+  color: whitesmoke;
+  margin-right: 24px;
+  font-size: large;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.input__Options > div > .MuiSvgIcon-root:hover {
+  background-color: #303135;
+  border-radius: 50%;
+}
+.input__Options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pin {
+  color: whitesmoke;
+  font-size: x-large;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.pin:hover {
+  background-color: #303135;
+  border-radius: 50%;
+}
+
+.input__Options > h4 {
+  color: whitesmoke;
+  margin-right: 30px;
 }
