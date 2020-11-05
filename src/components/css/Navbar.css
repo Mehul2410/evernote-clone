@@ -5,7 +5,7 @@
   align-items: center;
   /* box-shadow: 2px 5px 8px #31323698;  */
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   border-bottom: 1px solid #6d6f72;
 }
 .navbar.active {

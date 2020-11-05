@@ -38,6 +38,7 @@ input {
   background-color: transparent;
   font-weight: 500;
   font-size: 15px;
+  height: max-content;
   color: #80868b;
   text-decoration: none;
   resize: none !important;
