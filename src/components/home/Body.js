@@ -15,16 +15,15 @@ const Body = () => {
           <Input />
         </div>
         <div className="body__CardBody">
-          <div className="masonry-wrapper">
-            <div className="masonry">
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card /> <Card />
-              <Card />
-              <Card />
-            </div>
+          <div className="body__Card">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card /> <Card />
+            <Card />
+            <Card />
           </div>
         </div>
       </div>
