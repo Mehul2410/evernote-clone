@@ -21,7 +21,7 @@ import pinIcon from "@iconify/icons-mdi/pin";
 import UndoIcon from "@material-ui/icons/Undo";
 import RedoIcon from "@material-ui/icons/Redo";
 
-const Card = () => {
+const Card = ({ value }) => {
   return (
     <div className="card">
       <div className="input__Title">
@@ -32,6 +32,7 @@ const Card = () => {
         <TextareaAutosize
           className="textareaClick"
           placeholder="Take a note..."
+          value={value}
         />
       </div>
       <div className="card__Options">

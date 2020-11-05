@@ -30,6 +30,10 @@
 }
 
 .body__Card {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  width: 1200px;
+  margin: 4px auto;
+  columns: 5;
+  column-gap: 0px;
+  break-inside: avoid !important;
+  overflow: hidden;
 }

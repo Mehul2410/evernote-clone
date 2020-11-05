@@ -4,7 +4,7 @@ import Input from "./Input";
 import Sidebar from "./Sidebar";
 import Card from "./Card";
 
-const Body = () => {
+const Body = ({ value }) => {
   return (
     <div className="body">
       <div className="body__Left">
@@ -15,15 +15,125 @@ const Body = () => {
           <Input />
         </div>
         <div className="body__CardBody">
-          <div className="body__Card">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card /> <Card />
-            <Card />
-            <Card />
+          <div className="body__CardContainer">
+            <div className="body__Card">
+              <Card />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcard"
+                }
+              />
+              <Card
+                value={
+                  "cardcardcardcardardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcard"
+                }
+              />
+              <Card
+                value={
+                  "cardcardcardcardardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcard"
+                }
+              />
+              <Card
+                value={
+                  "cardcardcardcardardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcard"
+                }
+              />
+              <Card
+                value={
+                  "cardcardcardcardardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card />
+              <Card
+                value={
+                  "cardcardcardcardcardcardcardcardcardcardcardcardcardcardcardardcardcard"
+                }
+              />
+              <Card
+                value={
+                  "cardcardcardcardardcardcardcardcardcardcardcardcardcardardcardcardcardcardcardcardcardcardcardcardcardcardcard"
+                }
+              />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+              <Card value={"cardcardcardcardcardcardcardcard"} />
+            </div>
           </div>
         </div>
       </div>
