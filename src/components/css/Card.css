@@ -4,6 +4,7 @@
   border-radius: 10px;
   margin: 0px 10px 10px 10px;
   box-shadow: 4px 4px 6px #111113;
+  height: max-content;
 }
 
 .card__Options > div > .MuiSvgIcon-root {
