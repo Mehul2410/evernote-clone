@@ -1,10 +1,11 @@
-## Google Keep Clone
+## Google Keep Clone(Reactjs)
 
-## Front End Clone
+
 
 ## Overview 
 
 ##            Project in underbuilt
 
-* Recent Updates
+* Recent Updates/(Frontend)
+
 ![](images/Overview.png)
