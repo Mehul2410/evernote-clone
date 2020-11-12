@@ -17,6 +17,18 @@ import RedoIcon from "@material-ui/icons/Redo";
 
 const Input = () => {
   const [click, setClick] = useState(true);
+  const [query, setQuery] = useState([]);
+  const [note, setNote] = useState("");
+  // imp //////////////////////////////////////////////////////////////////////////////
+  const onSubmit = (e) => {
+    e.preventDefault();
+    console.log(query);
+    setNote(query);
+    console.log("submit", note);
+  };
+  const onChange = (e) => {
+    setQuery(e.target.value);
+  };
   const clicked = () => {
     setClick(!click);
   };
@@ -36,7 +48,7 @@ const Input = () => {
           </div>
         </div>
       ) : (
-        <form className="input" onSubmit={}>
+        <form className="input" onSubmit={onSubmit}>
           <div className="input__Title">
             <input type="text" placeholder="Title" />
             <Icon className="pin" icon={pinIcon} />
@@ -45,7 +57,10 @@ const Input = () => {
             <TextareaAutosize
               className="textareaClick"
               placeholder="Take a note..."
+              onChange={onChange}
+              value={query}
             />
+            {/* onsubmit */}
           </div>
           <div className="input__Options">
             <div>
@@ -58,7 +73,7 @@ const Input = () => {
               <RedoIcon />
             </div>
 
-            <h4> Close</h4>
+            <button type="submit">Close</button>
           </div>
         </form>
       )}

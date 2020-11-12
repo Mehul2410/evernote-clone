@@ -4,7 +4,7 @@ import Input from "./Input";
 import Sidebar from "./Sidebar";
 import Card from "./Card";
 
-const Body = ({ value }) => {
+const Body = ({ value, note }) => {
   return (
     <div className="body">
       <div className="body__Left">
@@ -17,7 +17,7 @@ const Body = ({ value }) => {
         <div className="body__CardBody">
           <div className="body__CardContainer">
             <div className="body__Card">
-              <Card />
+              <Card value={note} />
               <Card
                 value={
                   "cardcardcardcardcardcardcardcardcardcardcardcardcardcard"

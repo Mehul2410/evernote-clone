@@ -94,7 +94,8 @@ input {
   border-radius: 50%;
 }
 
-.input__Options > h4 {
+.input__Options > button {
   color: whitesmoke;
   margin-right: 30px;
+  font-size: large;
 }
