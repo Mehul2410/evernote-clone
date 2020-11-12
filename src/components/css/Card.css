@@ -8,16 +8,26 @@
   break-inside: avoid;
 }
 
-.card__Options > div > .MuiSvgIcon-root {
-  color: transparent;
-  margin-right: 24px;
+.card__Options > .card__OptionsV > .MuiSvgIcon-root {
+  color: whitesmoke;
+  margin-right: 10px;
   font-size: large;
   cursor: pointer;
   padding: 6px;
 }
 
-.card__Options > div > .MuiSvgIcon-root:hover {
-  color: whitesmoke;
+.card__Options > .card__OptionsV > .MuiSvgIcon-root:hover {
   background-color: #303135;
   border-radius: 50%;
+}
+
+.card__Options {
+  display: flex;
+  width: 100%;
+}
+.card__OptionsV {
+  visibility: hidden;
+}
+.card__Options:hover > .card__OptionsV {
+  visibility: visible;
 }

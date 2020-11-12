@@ -36,7 +36,7 @@ const Card = ({ value }) => {
         />
       </div>
       <div className="card__Options">
-        <div>
+        <div className="card__OptionsV">
           <NotificationImportantRounded />
           <GroupAddIcon />
           <PaletteIcon />
