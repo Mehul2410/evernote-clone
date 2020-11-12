@@ -1,7 +1,5 @@
 import {
   ArchiveRounded,
-  ArrowBackIosRounded,
-  ArrowForwardIosRounded,
   BrushOutlined,
   CheckBoxOutlineBlankOutlined,
   NotificationImportantRounded,
@@ -38,7 +36,7 @@ const Input = () => {
           </div>
         </div>
       ) : (
-        <div className="input">
+        <form className="input" onSubmit={}>
           <div className="input__Title">
             <input type="text" placeholder="Title" />
             <Icon className="pin" icon={pinIcon} />
@@ -62,7 +60,7 @@ const Input = () => {
 
             <h4> Close</h4>
           </div>
-        </div>
+        </form>
       )}
     </>
   );

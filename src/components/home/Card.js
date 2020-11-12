@@ -1,14 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/Card.css";
 //
 //
 //
 import {
   ArchiveRounded,
-  ArrowBackIosRounded,
-  ArrowForwardIosRounded,
-  BrushOutlined,
-  CheckBoxOutlineBlankOutlined,
   NotificationImportantRounded,
   PhotoAlbumRounded,
 } from "@material-ui/icons";
@@ -18,8 +14,6 @@ import PaletteIcon from "@material-ui/icons/Palette";
 import GroupAddIcon from "@material-ui/icons/GroupAdd";
 import { Icon, InlineIcon } from "@iconify/react";
 import pinIcon from "@iconify/icons-mdi/pin";
-import UndoIcon from "@material-ui/icons/Undo";
-import RedoIcon from "@material-ui/icons/Redo";
 
 const Card = ({ value }) => {
   return (
