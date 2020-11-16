@@ -31,3 +31,8 @@
 .card__Options:hover > .card__OptionsV {
   visibility: visible;
 }
+
+.input1 {
+  position: fixed;
+  z-index: 1000;
+}
