@@ -33,6 +33,21 @@
 }
 
 .input1 {
-  position: fixed;
+  position: absolute;
   z-index: 1000;
+  background-color: #303135;
+  padding: 10px;
+  border-radius: 10px;
+  top: 45%;
+
+  left: 40%;
+}
+
+.input__body {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  position: fixed;
+  backdrop-filter: blur(5px);
 }

@@ -60,34 +60,36 @@ const Card = ({ value }) => {
           </div>
         </div>
       ) : (
-        <form className="input1" onSubmit={onSubmit}>
-          <div className="input__Title">
-            <input type="text" placeholder="Title" />
-            <Icon className="pin" icon={pinIcon} />
-          </div>
-          <div className="input__Note">
-            <TextareaAutosize
-              className="textareaClick"
-              placeholder="Take a note..."
-              onChange={onChange}
-              value={query}
-            />
-            {/* onsubmit */}
-          </div>
-          <div className="input__Options">
-            <div>
-              <NotificationImportantRounded />
-              <GroupAddIcon />
-              <PaletteIcon />
-              <PhotoAlbumRounded />
-              <ArchiveRounded />
-              <UndoIcon />
-              <RedoIcon />
+        <div className="input__body">
+          <form className="input1" onSubmit={onSubmit}>
+            <div className="input__Title">
+              <input type="text" placeholder="Title" />
+              <Icon className="pin" icon={pinIcon} />
             </div>
+            <div className="input__Note">
+              <TextareaAutosize
+                className="textareaClick"
+                placeholder="Take a note..."
+                onChange={onChange}
+                value={query}
+              />
+              {/* onsubmit */}
+            </div>
+            <div className="input__Options">
+              <div>
+                <NotificationImportantRounded />
+                <GroupAddIcon />
+                <PaletteIcon />
+                <PhotoAlbumRounded />
+                <ArchiveRounded />
+                <UndoIcon />
+                <RedoIcon />
+              </div>
 
-            <button type="submit">Close</button>
-          </div>
-        </form>
+              <button type="submit">Close</button>
+            </div>
+          </form>
+        </div>
       )}
     </>
   );
