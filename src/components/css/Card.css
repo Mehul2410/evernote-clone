@@ -39,8 +39,9 @@
   padding: 10px;
   border-radius: 10px;
   top: 45%;
-
   left: 40%;
+  z-index: 10;
+  border: 0.5px solid whitesmoke;
 }
 
 .input__body {
